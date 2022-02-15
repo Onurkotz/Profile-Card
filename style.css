@@ -1,3 +1,6 @@
+ul {
+  list-style: none; }
+
 #main {
   width: 450px;
   height: 200px;
@@ -12,14 +15,27 @@
   width: 50px;
   height: 200px;
   border-right: 2px solid black;
-  float: left; }
+  float: left;
+  background-color: blue; }
+
+.gicon {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+
+.ticon {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
 
 #right {
   width: 50px;
   height: 200px;
   border-left: 2px solid black;
-  float: left;
-  margin-left: 346px; }
+  float: right;
+  background-color: blue; }
 
 #photo {
   width: 100px;
@@ -29,6 +45,6 @@
   left: 46%;
   top: 19%;
   border-radius: 50%;
-  background-color: white; }
+  background-image: url("https://picsum.photos/id/255/100/100"); }
 
 /*# sourceMappingURL=style.css.map */
