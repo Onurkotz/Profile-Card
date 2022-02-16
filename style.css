@@ -1,6 +1,11 @@
 ul {
   list-style: none; }
 
+li {
+  margin-top: 30px;
+  display: inline;
+  margin-right: 10px; }
+
 #main {
   width: 450px;
   height: 200px;
@@ -8,34 +13,36 @@ ul {
   border-radius: 10px;
   position: absolute;
   left: 33%;
-  top: 25%;
-  color: blue; }
+  top: 25%; }
 
 #left {
   width: 50px;
   height: 200px;
   border-right: 2px solid black;
   float: left;
-  background-color: blue; }
+  background-color: white; }
 
 .gicon {
-  background-color: red;
   width: 50px;
   height: 50px;
-  border-radius: 50%; }
+  margin-top: 45px; }
 
 .ticon {
-  background-color: red;
   width: 50px;
   height: 50px;
-  border-radius: 50%; }
+  margin-top: 40px; }
 
 #right {
   width: 50px;
   height: 200px;
   border-left: 2px solid black;
-  float: right;
-  background-color: blue; }
+  float: right; }
+
+button {
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: none; }
 
 #photo {
   width: 100px;
@@ -46,5 +53,27 @@ ul {
   top: 19%;
   border-radius: 50%;
   background-image: url("https://picsum.photos/id/255/100/100"); }
+
+a {
+  margin: 17px;
+  margin-top: 5px;
+  color: black; }
+
+h1 {
+  text-align: center;
+  margin-top: 85px; }
+
+.para {
+  width: 250px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 40px;
+  position: relative;
+  margin-top: -20px; }
+
+.age {
+  text-align: center;
+  position: relative;
+  margin-top: -20px; }
 
 /*# sourceMappingURL=style.css.map */

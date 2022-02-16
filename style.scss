@@ -12,43 +12,52 @@ ul{
     list-style: none;
 }
 
+li {
+    margin-top: 30px;
+    display: inline;
+    margin-right: 10px;
+}
+
 #main{
     @include widhe(450px, 200px);
     border: 5px solid black;
     border-radius: 10px;
     position: absolute;
     @include pos(33%, 25%);
-    color: blue;
-
-
 }
 
 #left{
     @include widhe(50px, 200px);
     border-right: 2px solid black;
     float: left;
-    background-color: blue
+    
+    background-color: white;
 }
 
 .gicon {
-    background-color: red;
+    
     @include widhe(50px, 50px);
-    border-radius: 50%;
+    margin-top: 45px;
 }
 
 .ticon{
-    background-color: red;
+    
     @include widhe(50px, 50px);
-    border-radius: 50%;
+    margin-top: 40px;
+    
 }
 
 #right{
     @include widhe(50px, 200px);
     border-left: 2px solid black;
     float: right;
-    background-color: blue
 }
 
+button {
+    @include widhe(50px, 50px);
+    background: none;
+    border: none;
+}
 
 #photo{
     @include widhe(100px, 100px);
@@ -59,5 +68,27 @@ ul{
     background-image: url("https://picsum.photos/id/255/100/100");
 }
 
+a {
+    margin: 17px;
+    margin-top: 5px;
+    color: black;
+}
 
+h1 {
+    text-align: center; 
+    margin-top: 85px;
+}
+.para {
+    @include widhe(250px, 40px);
+    display: inline-block;
+    margin-left: 40px;
+    position: relative;
+    margin-top: -20px;
+    
+}
 
+.age {
+    text-align: center; 
+    position: relative; 
+    margin-top: -20px;
+}
