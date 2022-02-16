@@ -66,12 +66,19 @@ button {
     @include pos(46%, 19%);
     border-radius: 50%;
     background-image: url("https://picsum.photos/id/255/100/100");
+   /* &:hover{
+        @include widhe(200px, 200px);
+        border-radius: 50%;
+    }*/
 }
 
 a {
     margin: 17px;
     margin-top: 5px;
     color: black;
+    /*&:hover {
+        color: yellow;
+    }*/
 }
 
 h1 {
