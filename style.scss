@@ -59,6 +59,7 @@ li {
     border: 3px solid wheat;
     position: absolute;
     @include pos(46%, 19%);
+    box-shadow: 0px 20px 20px wheat ;
     border-radius: 50%;
     background-image: url("https://picsum.photos/id/255/100/100");
     transition: height 1s, width 1s, margin-left 1s, background-image 1s;
@@ -84,15 +85,18 @@ h1 {
     color: wheat;
     border-bottom: 2px solid wheat;
     padding: 3px;
+    font-family: 'Noto Serif', serif;
     
 }
 .para {
     @include widhe(250px, 40px);
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 35px;
     position: relative;
     margin-top: -20px;
     color: wheat;
+    font-family: 'Noto Serif', serif;
+    font-size: 13px;
 }
 
 .age {
@@ -100,6 +104,8 @@ h1 {
     position: relative; 
     margin-top: -20px;
     color: wheat;
+    font-family: 'Noto Serif', serif;
+    
 }
 
 .hp{
