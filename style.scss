@@ -16,74 +16,75 @@ li {
     margin-top: 30px;
     display: inline;
     margin-right: 10px;
+    
 }
 
 #main{
     @include widhe(450px, 200px);
-    border: 5px solid black;
+    border: 5px solid wheat;
     border-radius: 10px;
     position: absolute;
     @include pos(33%, 25%);
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: rgb(123, 123, 248)
 }
 
 #left{
-    @include widhe(50px, 200px);
-    border-right: 2px solid black;
+    @include widhe(50px, 197px);
+    border-right: 2px solid wheat;
     float: left;
-    
-    background-color: white;
+
 }
 
 .gicon {
-    
-    @include widhe(50px, 50px);
-    margin-top: 45px;
-}
-
-.ticon{
-    
     @include widhe(50px, 50px);
     margin-top: 40px;
     
 }
 
-#right{
-    @include widhe(50px, 200px);
-    border-left: 2px solid black;
-    float: right;
+.ticon{
+    @include widhe(50px, 50px);
+    margin-top: 30px;    
 }
 
-button {
-    @include widhe(50px, 50px);
-    background: none;
-    border: none;
+#right{
+    @include widhe(50px, 197px);
+    border-left: 2px solid wheat;
+    float: right;
 }
 
 #photo{
     @include widhe(100px, 100px);
-    border: 3px solid black;
+    border: 3px solid wheat;
     position: absolute;
     @include pos(46%, 19%);
     border-radius: 50%;
     background-image: url("https://picsum.photos/id/255/100/100");
-   /* &:hover{
-        @include widhe(200px, 200px);
-        border-radius: 50%;
-    }*/
+    transition: height 1s, width 1s, margin-left 1s, background-image 1s;
+    &:hover{
+        @include widhe(120px, 120px);
+        margin-left: -10px;
+        background-image: url("https://picsum.photos/id/255/120/120");
+    }
+
 }
 
 a {
-    margin: 17px;
-    margin-top: 5px;
-    color: black;
-    /*&:hover {
-        color: yellow;
-    }*/
+    margin: 10px; 
+    color: wheat;
+    &:hover{
+        color: black;
+    }
 }
 
 h1 {
     text-align: center; 
-    margin-top: 85px;
+    margin-top: 80px;
+    color: wheat;
+    border-bottom: 2px solid wheat;
+    padding: 3px;
+    
 }
 .para {
     @include widhe(250px, 40px);
@@ -91,11 +92,18 @@ h1 {
     margin-left: 40px;
     position: relative;
     margin-top: -20px;
-    
+    color: wheat;
 }
 
 .age {
     text-align: center; 
     position: relative; 
     margin-top: -20px;
+    color: wheat;
+}
+
+.hp{
+    width: 300px;
+    margin-left: 70px;
+    
 }
